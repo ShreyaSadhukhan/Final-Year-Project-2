@@ -1,0 +1,141 @@
+.register {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}   
+.userAuthentication {
+    height: 100vh;
+    background-color: white;
+    width: 100vw;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    width: 816px;
+    height: 1,044px;
+}
+.loginForm {
+    display: grid;
+    justify-content: space-between;
+    gap: 50px;
+}
+.header {
+    gap: 40px;
+}
+.logo {
+    display: grid;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 215px;
+    height: 53px;
+    gap: 10px;
+    opacity: 0px;
+}
+.intro {
+    width: Hug (463px)px;
+    height: Hug (128px)px;
+    gap: 28px;
+    opacity: 0px;
+    justify-content: center;
+}
+.subheading {
+    color: #0C1421;
+    font-weight: 600;
+    font-family: Poppins;
+    font-size: 36px;
+}
+.paragraph {
+    color: #313957;
+    font-weight: 400;
+    font-family: Poppins;
+    font-size: 20px;
+}
+.loginPage {
+    gap: 60px;
+    border-radius: 10px solid black;
+}
+.form {
+    color: #0C1421;
+    gap: 70px;
+}
+.name {
+    width: 400px;
+    height: 40px;
+    gap: 0px;
+    border-radius: 100px;
+    opacity: 0px;
+    border: 1px solid #00000066;
+}
+.email {
+    width: 400px;
+    height: 40px;
+    gap: 0px;
+    border-radius: 100px;
+    opacity: 0px;
+    border: 1px solid #00000066;
+}
+.phonenumber {
+    width: 400px;
+    height: 40px;
+    gap: 0px;
+    border-radius: 100px;
+    opacity: 0px;
+    border: 1px solid #00000066;
+}
+.password {
+    width: 400px;
+    height: 40px;
+    gap: 0px;
+    border-radius: 100px;
+    opacity: 0px;
+    border: 1px solid #00000066;
+}
+.continue {
+    height: 40px;
+    width: 400px;
+    background-color: orange;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 7px;
+    display: block;
+    border: none;
+    color: #ffffff;
+}
+.signin {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color:#122B31;
+}
+button {
+    border: none;
+    cursor: pointer;
+}
+.buttonsignin{
+    color: #fc8a06;
+    border: none;
+    cursor: pointer;
+}
+.right {
+    display: flex;
+    background-repeat: no-repeat;
+    height: Fixed (1,044px)px;
+    top: 32px;
+    left: 880px;
+    gap: 0px;
+    opacity: 0px;
+    width: 816px;
+    border-radius: 24px 0px 0px 0px;
+}
